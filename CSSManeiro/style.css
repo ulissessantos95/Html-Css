@@ -1,0 +1,151 @@
+html {
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: brown;
+}
+
+#container {
+    display: flex;
+    height: 100%;
+    background-color: cadetblue;
+}
+
+#tela_login {
+    height: 100%;
+    width: 50%;
+    background-color: dimgrey;
+}
+
+#login_topo_um {
+    width: 100%;
+    height: 20%;
+    background-color: rgb(255, 255, 255);
+}
+
+#login_topo_dois {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+
+#login_meio {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+
+#login_baixo_um {
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+#login_baixo_um input{
+    height: 10%;
+    width: 50%;
+    border-radius: 10px;
+    border-style:solid
+}
+
+
+#login_baixo_dois {
+    width: 100%;
+    height: 15%;
+    background-color: rgb(255, 255, 255);
+}
+
+
+#tela_cadastro {
+    height: 100%;
+    width: 50%;
+    background-color: rgb(67, 199, 240);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#testoIncCad {
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+}
+
+#textoCad {
+    font-size: 20px;
+    margin: 25px 0 40px 0;
+    color: rgb(255, 255, 255);
+}
+
+#btnCad {
+    height: 6%;
+    width: 20%;
+    border-radius: 25px;
+    font-size: 25px;
+    border-style:solid ;
+    color: rgb(255, 255, 255);
+    background-color: rgba(240, 248, 255, 0);
+    border-color: rgb(255, 255, 255);
+}
+
+#iconeIg {
+    margin: 0 15px 0 15px;
+}
+
+#textoLogar{
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.icons {
+    height: 40%;
+}
+
+#textoAc {
+    font-size: 20px;
+    margin: 0 0 20px 0;
+}
+
+#textoEsqueceuSe {
+    font-size: 20px;
+    margin: 20px 0 20px 0;
+}
+
+#inpEmail{
+    margin-bottom: 15px;
+}
+
+#btnLogin{
+    height: 12%;
+    width: 20%;
+    border-radius: 25px;
+    font-size: 20px;
+    border-style: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(67, 199, 240);
+    transition: 0.5s;
+}
+
+#btnLogin:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: black;
+    transition: 0.5s;
+}
